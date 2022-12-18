@@ -1,0 +1,29 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+    int f=0,a,i,c,k,n;
+    float d=0,b=0;
+    for(i=0;i>=0;i++){
+        cin>>n;
+        if(n>0){
+            if(n%2==0){
+            a=a+n;
+            c=c+1;
+        }
+        else{
+            b=b+n;
+            k=k+1;
+        }
+    }
+        else{
+            break;
+        }
+    }
+    f=a/c;
+    d=b/k;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<f<<endl;
+    cout<<d<<endl;
+}
