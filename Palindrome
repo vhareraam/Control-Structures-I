@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,i,temp=0,revi,remo;
+    cin>>a;
+    temp=a;
+    while(temp!=0)
+    {
+        remo=temp%10;
+        revi=revi*10+remo;
+        temp=temp/10;
+    }
+    if(temp==revi)
+    {
+        cout<<"Same";
+    }
+    else
+    {
+        cout<<"Not same";
+    }
+}
